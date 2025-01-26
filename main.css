@@ -144,6 +144,7 @@ table {
 .main {
     height: calc(100vh - 2rem);
     display: flex;
+    overflow: visible;
 }
 
 .foot {
@@ -161,6 +162,7 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: scroll;
 }
 
 .left .odin {
@@ -188,6 +190,7 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: scroll;
 }
 
 .right p {
@@ -279,4 +282,8 @@ input:invalid {
 
 input:focus {
     border: blue;
+}
+
+body {
+    overflow: scroll;
 }
