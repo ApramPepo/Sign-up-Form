@@ -166,7 +166,7 @@ table {
 .left .odin {
     font-family: Norse-Bold, sans-serif, 'Times New Roman', Times, serif;
     color: white;
-    font-size: 18ch;
+    font-size: 20ch;
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.6);
@@ -178,4 +178,105 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.right {
+    width: 60vw;
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5ch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right p {
+    text-align: center;
+    width: 60%;
+    margin: 1rem;
+}
+
+.alert {
+    font-weight: 800;
+}
+
+.right-form {
+    display: flex;
+    gap: 1rem;
+}
+
+.left-form {
+    display: flex;
+    gap: 1rem;
+}
+
+.agree {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 10rem;
+}
+
+.left-form input,
+.right-form input {
+    width: 20ch;
+}
+
+form {
+    height: 70vh;
+    accent-color: green;
+}
+
+form .left-form,
+form .right-form {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-form label,
+.right-form label {
+    width: 60%;
+    margin-bottom: 0.5rem;
+}
+
+button {
+    height: 2rem;
+    width: 10rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-color: #8c9e7c;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+
+button:hover {
+    color: aliceblue;
+    background-color: black;
+    border: black;
+    border-radius: 0.3rem;
+    transition: background-color 0.4s, color 0.4s, border 0.4s;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input:invalid {
+    border: #fc0000;
+}
+
+input:focus {
+    border: blue;
 }
